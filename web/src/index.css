@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  overflow: hidden;
+  background: linear-gradient(to bottom, #b2ada0, #2c2c2c);
+  height: 100vh;
+}
+
+.paragraph {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 4.1em;
+  line-height: 1.3em;
+}
+
+.title-paragraph {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 4.1em;
+  line-height: 1.3em;
+}
